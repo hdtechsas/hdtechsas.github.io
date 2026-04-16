@@ -1,0 +1,66 @@
+.header-top2 {
+    border-bottom: solid 1px white;
+    padding: .5em 0 .5em;
+    font-weight: bold;
+    color: #FFF ;
+}
+.header-top-left2 .fa {
+    margin-right: .3em;
+    margin-left: 1em;
+}
+
+.header-top-right2 {
+    text-align: right;
+}
+.header-top-right2 i {
+    margin-left: 2em;
+}
+footer{
+    padding: 20px 0px 0px;
+}
+#video-area .contents p {
+    font-size: 17px;
+}
+.site-info ul {
+    color: #FFF ;
+}
+.site-info p {
+    word-spacing: .4em;
+}
+
+/* Estilo para modal - Inicio */
+#overlay {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+#modal {
+    position:absolute;
+    background:url(../img/tint20.png) 0 0 repeat;
+    background:rgba(0,0,0,0.2);
+    border-radius:14px;
+    padding:8px;
+}
+
+#content {
+    border-radius:8px;
+    background:#fff;
+    padding:20px;
+}
+
+#close {
+    position:absolute;
+    background:url(../img/close.png) 0 0 no-repeat;
+    width:24px;
+    height:27px;
+    display:block;
+    text-indent:-9999px;
+    top:-7px;
+    right:-7px;
+}
+/* Estilo para modal - Fin */
